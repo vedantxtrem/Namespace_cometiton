@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#1e1e1e] font-mono">
+  <div class="sm:h-screen sm:flex justify-center items-center">
+    <div class="sm:flex w-full h-screen border-2 sm:h-[80%] sm:w-10/12 border-green-300 sm:scroll-m-1 ">
+      <!-- Form section -->
+      <div class="h-11/12 flex flex-col justify-center p-20 w-full lg:w-1/2">
+        <div class="px-4 text-2xl font-bold text-gray-300">
+          <span class="text-gray-300">&#9650;</span>
+          <span class="text-4xl text-yellow-500">Z</span>est<span class="text-4xl text-yellow-500">Pie</span>
+        </div>
+        <div class="px-4 mt-5 font-bold text-sm text-gray-300">
+          <h2>START FOR FREE</h2>
+        </div>
+        <div class="px-4 mt-2 font-bold text-3xl text-gray-300">
+          <h2>Create a new account</h2>
+        </div>
+        <form class="mt-6 w-[80%] lg:w-96 space-y-4">
+          <div class="flex gap-4">
+            <input
+              type="text"
+              name="FirstName"
+              class="ring-1 rounded-full w-full px-4 py-3 ring-gray-900/10 text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              placeholder="First Name"
+            />
+
+            <input
+              type="text"
+              name="LastName"
+              class="ring-1 rounded-full w-full px-4 py-3 ring-gray-900/10 text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="flex gap-4">
+            <input
+              type="tel"
+              name="MobileNO."
+              class="ring-1 rounded-full w-full px-4 py-3 ring-gray-900/10 text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              placeholder="Mobile NO."
+            />
+
+            <input
+              type="number"
+              name="Age"
+              class="ring-1 rounded-full w-full px-4 py-3 ring-gray-900/10 text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              placeholder="Age"
+            />
+          </div>
+          <input
+            type="email"
+            name="Email"
+            class="ring-1 rounded-full w-full px-4 py-3 ring-gray-900/10 text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+            placeholder="Email"
+          />
+
+          <input
+            type="password"
+            name="password"
+            class="ring-1 rounded-full w-full px-4 py-3 ring-gray-900/10 text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+            placeholder="Password"
+          />
+          <button class="mt-2 bg-blue-600 ring-1 rounded-full w-full px-4 py-3 ring-gray-900/10 hover:ring-gray-900/20 text-white hover:bg-blue-400 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+            Signup
+          </button>
+        </form>
+        <div class="mt-4 text-white">
+          Already have an account?
+          <a href="./login.html">
+            <span class="text-blue-600 hover-text-blue-400 cursor-pointer">Log in here</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Image section -->
+      <div class="flex w-1/2 justify-center item-center">
+        <img
+          class="hidden lg:block w-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 "
+          src="./assests/17.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
